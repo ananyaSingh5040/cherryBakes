@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  color-scheme: dark;
+
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+
+  box-shadow: 5px 5px 40px rgb(130, 128, 128);
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 98%;
+  height: 97px;
+}
+
+#logo {
+  display: block;
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  font-weight: bolder;
+  font-size: 45px;
+  color: black;
+
+  font-weight: bolder;
+  /* font-size: xx-large; */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-family: cursive;
+  margin-right: 20px;
+  font-size: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+.main {
+  display: flex;
+  justify-content:last baseline;
+  align-items: left;
+  flex-direction: column;
+}
+.introimage{
+  margin: 50px;
+  width: 100vw;
+  height: 70vh;
+}
+.mainpara {
+  margin: 90px;
+  font-size: 80px;
+  position: absolute;
+  top: 20%;
+}
+.special {
+  font-family: "Gatefold Demi", serif;
+  font-size: 40px;
+}
+.maincardblock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 550px;
+  width: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  /* border: 2px solid black; */
+  margin: 110px;
+  transition: all 0.2s linear 0s;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 30px;
+  font-size: larger;
+  gap: 20px;
+  box-shadow: 30px 30px 40px rgb(209, 204, 204);
+}
+.card:hover {
+  transform: scale(1.1);
+}
+img {
+  display: block;
+  height: 25rem;
+  width: 33rem;
+  border-radius: 30px;
+}
+a {
+  display: block;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.para-text{
+  margin-top: 20px;
+  font-size: 40px;
+}
+.size-change{
+  font-size: 55px;
+}
+
+
