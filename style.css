@@ -89,18 +89,6 @@ nav a {
   left:110%;
 
 }
-@media screen and (max-width: 1024px) {
-  .left-intro {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .left-intro {
-    width: 90%;
-    text-align: center;
-  }
-}
 
 .mainpara {
   margin: 90px;
