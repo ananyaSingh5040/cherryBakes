@@ -66,15 +66,42 @@ nav a {
 }
 .main {
   display: flex;
-  justify-content:last baseline;
+  justify-content: last baseline;
   align-items: left;
   flex-direction: column;
+  position: relative;
 }
-.introimage{
-  margin: 50px;
-  width: 100vw;
+.introimage {
+  margin-right: 50px;
+  margin-top: 100px;
+  width: 100%;
   height: 70vh;
+  margin-bottom: 90px;
+ 
 }
+.left-intro {
+  position: relative; /* Removed absolute positioning */
+  width: 50%; /* Use percentage for responsiveness */
+  max-width: 600px;
+  height: auto;
+  margin: auto; /* Centers the div */
+  bottom:400px;
+  left:110%;
+
+}
+@media screen and (max-width: 1024px) {
+  .left-intro {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left-intro {
+    width: 90%;
+    text-align: center;
+  }
+}
+
 .mainpara {
   margin: 90px;
   font-size: 80px;
@@ -121,12 +148,34 @@ a {
   margin-bottom: 20px;
   padding-bottom: 10px;
 }
-.para-text{
+.para-text {
   margin-top: 20px;
   font-size: 40px;
 }
-.size-change{
+.size-change {
   font-size: 55px;
 }
-
-
+button {
+  font-size: 20px;
+  padding: 13px;
+  border-radius: 30px;
+  background: transparent;
+  color: black;
+  border: 3px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  background: black;
+  color: white;
+  transform: scale(1.1);
+}
+.about-heading{
+  margin: 40px;
+  font-size: 70px;
+}
+.journey{
+  padding: 10px;
+  font-size: 30px;
+  margin: 20px;
+}
