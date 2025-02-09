@@ -169,6 +169,8 @@ button:hover {
   margin: 40px;
   font-size: 70px;
   margin: 25px;
+  font-family: 'Dancing Script', cursive;
+
 }
 .about-wall {
   margin-right: 50px;
@@ -185,12 +187,15 @@ button:hover {
 
 .journey {
   
-  font-size: 30px;
+  font-size: 32px;
   
   position: absolute;
   top: 40%;  
   left: 50%; 
   transform: translate(-10%, -15%); 
+  font-family: 'Merriweather', serif;
+
+
 
   padding: 10px 10px; /* Add padding to make text more readable */
  
