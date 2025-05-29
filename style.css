@@ -40,7 +40,6 @@ header {
   display: flex;
   align-items: center;
   gap: 20px;
-
   font-weight: bolder;
   font-size: 45px;
   color: black; 
